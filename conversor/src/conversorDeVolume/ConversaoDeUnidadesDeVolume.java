@@ -107,7 +107,7 @@ public class ConversaoDeUnidadesDeVolume {
 	//MENU
 	public void menu() {
 		do {
-			System.out.println("Conversor de area\n");
+			System.out.println("Conversor de unidade\n");
 			
 			System.out.println("Escolha umas das convesoes abaixo: ");
 			
