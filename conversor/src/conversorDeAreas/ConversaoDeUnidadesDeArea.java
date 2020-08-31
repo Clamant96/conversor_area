@@ -117,25 +117,25 @@ public class ConversaoDeUnidadesDeArea {
 				switch(getOpcao()) {
 				case 1:
 					System.out.println("MENU | Conversor metros");
-					System.out.println(ConversaoDeUnidadesDeArea.metro(getValor1()));
+					System.out.println("Metros Quadrados: "+ getValor1() +" para Pes quadrados: "+ ConversaoDeUnidadesDeArea.metro(getValor1()));
 					
 				break;
 				
 				case 2:
 					System.out.println("MENU | Conversor pes");
-					System.out.println(ConversaoDeUnidadesDeArea.pe(getValor1()));
+					System.out.println("Pes Quadrados: "+ getValor1() +" para Centimetros quadrados: "+ ConversaoDeUnidadesDeArea.pe(getValor1()));
 					
 				break;
 				
 				case 3:
 					System.out.println("MENU | Conversor milhas");
-					System.out.println(ConversaoDeUnidadesDeArea.milha(getValor1()));
+					System.out.println("Milhas Quadras: "+ getValor1() +" para Acres: "+ ConversaoDeUnidadesDeArea.milha(getValor1()));
 					
 				break;
 					
 				case 4:
 					System.out.println("MENU | Conversor acre");
-					System.out.println(ConversaoDeUnidadesDeArea.acre(getValor1()));
+					System.out.println("Acres: "+ getValor1() +" para Pes Quadrados: "+ ConversaoDeUnidadesDeArea.acre(getValor1()));
 					
 				break;
 				
